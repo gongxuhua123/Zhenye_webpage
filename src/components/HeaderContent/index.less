@@ -1,0 +1,37 @@
+.headercon_icondiv{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  // background-color: black;
+  color: #f2f5f5;
+  >div{
+    margin-right: 25px;
+    :hover{
+      cursor: pointer;
+    }
+  }
+  >div:first-child{
+    width: 0px;
+    height: 45px;
+    background-color: #2a3139;
+    position: absolute;
+    left: 0;
+    box-shadow: 5px 0px 10px 5px #000;
+  }
+  >div:nth-child(2){
+    margin-left: 5%;
+  }
+  >div{
+    font-size: 18px;
+    img{
+      width: 48px;
+      height: 48px;
+    }
+  }
+  >div:last-child{
+    img{
+      width: 170px;
+    }
+  }
+}
